@@ -10,13 +10,15 @@
     "build:native": "bsb -make-world -backend native",
     "clean": "bsb -clean-world"
   },
-  "keywords": ["BuckleScript"],
+  "keywords": [
+    "BuckleScript"
+  ],
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "bs-platform": "bsansouci/bsb-native#2.1.1"
+    "bsb-native": "4.0.6"
   },
   "dependencies": {
-    "reprocessing": "schmavery/reprocessing"
+    "reprocessing": "0.2.0"
   }
 }

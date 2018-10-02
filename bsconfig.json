@@ -9,7 +9,7 @@
     "in-source": true
   },
   "suffix": ".bs.js",
-  "bs-dependencies": ["Reprocessing"],
+  "bs-dependencies": ["reprocessing"],
   "entries": [
     { "backend": "bytecode", "main-module": "IndexHot" },
     { "backend": "native", "main-module": "Index" },
